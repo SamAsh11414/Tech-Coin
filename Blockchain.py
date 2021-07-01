@@ -1,4 +1,4 @@
-from hashlib import sha256
+fuck you nigger
 
 def updatehash(*args):
     hashing_text = ""; h = sha256()

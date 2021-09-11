@@ -1,1 +1,31 @@
 youtube.com/watch?v=jEDfbCADGc4&list=PLtCKS3CuBDYV_Vyl1ZH2Je8gSdXfQf4e3&index=4&ab_channel=WillAssad
+
+
+
+    # def chainJSONencode(self):
+    #     blockArrJSON = []
+    #     for block in self.chain:
+    #     	blockJSON = {}
+    #     	blockJSON['hash'] = block.hash
+    #     	blockJSON['index'] = block.index
+    #     	blockJSON['prev'] = block.prev
+    #     	blockJSON['time'] = block.time
+    #     	blockJSON['nonse'] = block.nonse
+    #     	blockJSON['gym'] = block.gym
+
+
+    #         transactionsJSON = []
+    #         tJSON = {}
+    #         for transaction in block.transactions:
+    #         	tJSON['time'] = transaction.time
+    #         	tJSON['sender'] = transaction.sender
+    #         	tJSON['reciever'] = transaction.reciever
+    #         	tJSON['amt'] = transaction.amt
+    #         	tJSON['hash'] = transaction.hash
+    #         	transactionsJSON.append(tJSON)
+
+    #         blockJSON['transactions'] = transactionsJSON
+
+    #         blockArrJSON.append(blockJSON)
+
+    #     return blockArrJSON
